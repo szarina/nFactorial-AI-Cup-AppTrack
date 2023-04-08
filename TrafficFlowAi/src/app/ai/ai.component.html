@@ -1,17 +1,17 @@
 <div class="whole-part">
   <div class="container">
     <div class="user-input-clmn">
-      <div class="user-input">
+      <div class="user-input" >
         <textarea placeholder="'Highest loaded streets in Almaty'"
-        ></textarea>
+                  [(ngModel)]="userInput"></textarea>
       </div>
       <div class="button-container">
-        <button  class="try-it"> OK</button>
+        <button  class="try-it" (click)="answer()"> OK</button>
       </div>
     </div>
 
     <div class="output-column">
-        <textarea class="output-text"
+        <textarea readonly class="output-text"
         placeholder="OUTPUT">
         </textarea>
     </div>

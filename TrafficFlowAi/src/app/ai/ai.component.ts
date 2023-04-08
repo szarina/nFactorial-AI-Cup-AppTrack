@@ -1,13 +1,17 @@
 import { Component } from '@angular/core';
-
 @Component({
   selector: 'app-ai',
   templateUrl: './ai.component.html',
   styleUrls: ['./ai.component.css']
 })
 export class AiComponent {
-    userInput :String;
-    constructor() {
-      this.userInput=""
-    }
+  public userInput: string;
+
+  constructor() {
+    this.userInput= "";
+  }
+
+  answer() {
+      console.log(this.userInput)
+  }
 }
