@@ -1,0 +1,53 @@
+/*Header*/
+.body{
+  font-family: Inter var,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  position: sticky;
+}
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  color:#08143E;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+* :after, :before {
+    box-sizing: border-box;
+}
+.nav-list-item{
+  margin-right: 1.5rem;
+}
+
+.nav-list-item-link{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  color:#08143E;
+  font-size:20px;
+  text-decoration: none;
+}
+.try-it {
+  font-weight: 700;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius:0.75rem;
+  background-color:#FF3E87;
+  color:#ffffff;
+  font-size:20px;
+  text-decoration: none;
+}
