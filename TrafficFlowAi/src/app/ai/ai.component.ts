@@ -11,7 +11,7 @@ export class AiComponent {
     this.userInput= "";
   }
 
-  answer() {
-      console.log(this.userInput)
-  }
+  // answer() {
+  //     console.log(this.userInput)
+  // }
 }
