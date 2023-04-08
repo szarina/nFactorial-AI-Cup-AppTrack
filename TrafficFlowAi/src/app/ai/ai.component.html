@@ -1,19 +1,28 @@
+
 <div class="whole-part">
   <div class="container">
     <div class="user-input-clmn">
       <div class="user-input" >
         <textarea placeholder="'Highest loaded streets in Almaty'"
-                  [(ngModel)]="userInput"></textarea>
+                  [(ngModel)]="userInput" id="text"></textarea>
       </div>
       <div class="button-container">
-        <button  class="try-it" (click)="answer()"> OK</button>
+        <button  class="try-it" id='btn'(click)="answer()"> OK</button>
       </div>
     </div>
 
     <div class="output-column">
-        <textarea readonly class="output-text"
-        placeholder="OUTPUT">
+        <textarea  class="output-text"
+        placeholder="OUTPUT" id="output">
         </textarea>
     </div>
   </div>
 </div>
+<script type="text/python"  id="script1">
+  from browser import document
+
+   def show_text(e):
+        document['output'].textContent = "hi";
+
+   document['btn'].bind('click', show_text)
+</script>
