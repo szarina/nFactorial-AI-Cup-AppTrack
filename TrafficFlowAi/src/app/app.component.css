@@ -37,6 +37,7 @@
   color:#08143E;
   font-size:20px;
   text-decoration: none;
+  font-weight: 600;
 }
 .try-it {
   font-weight: 700;
@@ -49,5 +50,8 @@
   background-color:#FF3E87;
   color:#ffffff;
   font-size:20px;
+  text-decoration: none;
+}
+a{
   text-decoration: none;
 }
